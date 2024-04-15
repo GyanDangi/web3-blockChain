@@ -12,10 +12,13 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-
+  // <ThirdwebProvider activeChain="ethereum"
+  // clientId="2b2df85829449c2086846815e4466d71"> 
   // {/* 11155111 */}
 
-  <ThirdwebProvider activeChain={{chainId:'Your Chain Id',rpc: ["Rpc network"]}}> 
+
+  // <ThirdwebProvider desiredChainId={ChainId.sepolia}> 
+  <ThirdwebProvider activeChain={{chainId:11155111,rpc: ["https://rpc.ankr.com/eth_sepolia"]}}> 
 
   
     <Router>
