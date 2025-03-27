@@ -17,7 +17,7 @@ root.render(
   // {/* 11155111 */}
 
 
-  // <ThirdwebProvider desiredChainId={ChainId.sepolia}> 
+  // {/* // <ThirdwebProvider desiredChainId={ChainId.sepolia}>  */}
   <ThirdwebProvider activeChain={{chainId:11155111,rpc: ["https://rpc.ankr.com/eth_sepolia"]}}> 
 
   
