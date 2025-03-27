@@ -36,8 +36,8 @@ module.exports = {
     defaultNetwork: 'sepolia',
     networks:{
     sepolia:{
-      // url:'https://rpc.sepolia.org',
-      // url:'https://11155111.rpc.thirdweb.com',
+      url:'https://rpc.sepolia.org',
+      url:'https://11155111.rpc.thirdweb.com',
       url: 'https://rpc.ankr.com/eth_sepolia',
       accounts: [`0x${process.env.PRIVATE_KEY}`]
     }
